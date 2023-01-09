@@ -5,6 +5,7 @@ import { pokeApi } from "../api";
 import { PokemonListResponse, SmallPokemon } from "../interfaces";
 import { Grid } from "@nextui-org/react";
 import { PokemonCard } from "../components/pokemon/";
+import Image from "next/image";
 
 interface Props {
   pokemons: SmallPokemon[];
